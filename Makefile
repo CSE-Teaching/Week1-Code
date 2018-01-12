@@ -17,6 +17,9 @@ reverseList: linkedList.o reverseList.o
 structure% : structure.h structure%.o
 	cc -o $@ structure$*.o 
 
+structure6 : structure2.h structure6.o
+	cc -o $@ structure6.o 
+
 % : %.o
 	cc -o $@  $<
 
